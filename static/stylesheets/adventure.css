@@ -1,0 +1,57 @@
+* {
+  color: rgb(29, 5, 29);
+}
+
+.total {
+  margin: 40px auto;
+  max-width: 1200px;
+}
+
+.storyname {
+  font-size: 60px;
+  font-weight: 900;
+  display: flex;
+  justify-content: center;
+  line-height: 60px;
+  margin: 10px;
+  -webkit-text-stroke: 3px rgb(61, 43, 78);
+  color: rgb(178, 140, 217);
+}
+
+.story {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: 20px 5vw;
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+  margin: 1vw;
+  justify-content: space-around;
+}
+
+.options a {
+  text-decoration: none;
+}
+
+.options div {
+  padding: 20px;
+  text-align: center;
+  transition-duration: 0.4s;
+  margin: 1vw;
+  border-radius: 20px;
+  background: rgb(178, 140, 217);
+  border: 4px solid rgb(123, 72, 175);
+}
+
+.options div:hover {
+  background: rgb(61, 43, 78);
+  color: rgb(178, 140, 217);
+}
+
+.options div:hover button {
+  color: rgb(178, 140, 217);
+  transition-duration: 0.4s;
+}

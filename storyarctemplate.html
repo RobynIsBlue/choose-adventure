@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="static/stylesheets/style.css" />
+    <link rel="stylesheet" href="static/stylesheets/adventure.css" />
+  </head>
+  <body>
+    <div class="total">
+      <div class="storyname">{{.Title}}</div>
+      {{range .Story}}
+      <div class="story">{{.}}</div>
+      {{end}}
+      <div class="options">
+        {{range .Option}}
+        <a href="{{.Arc}}"><div>{{.Text}}</div></a>
+        {{end}}
+      </div>
+    </div>
+    <div class="homepage"><a href="/">HOMEPAGE</a></div>
+  </body>
+</html>

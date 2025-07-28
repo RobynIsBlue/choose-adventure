@@ -1,0 +1,31 @@
+.chapters {
+  font-size: 20px;
+  margin: 20px;
+  text-decoration: none;
+}
+
+.ready {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+}
+
+.ready button {
+  background: rgb(178, 140, 217);
+  color: rebeccapurple;
+  font-size: 200px;
+  padding: auto;
+  border-radius: 30px;
+  border: transparent;
+  transition-duration: 0.5s;
+  min-height: 300px;
+  border: 10px rgb(109, 62, 157) solid;
+  box-shadow: 20px 20px 10 black;
+}
+
+.ready button:hover {
+  transition-duration: 0.5s;
+  background: rgb(52, 24, 80);
+  color: rgb(178, 140, 217);
+}
